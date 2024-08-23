@@ -16,7 +16,7 @@ st.set_page_config(page_title="AI Product", page_icon=":sparkles:")
 st.title("AI Product")
 
 def get_response(user_query, chat_history):
-    df = pd.read_csv("/home/andresqb/Desktop/tech-sphere-2024/app2/data/olympics2024.csv")
+    df = pd.read_csv("")
 
     agent = create_pandas_dataframe_agent(OpenAI(temperature=0),
                                         df,
