@@ -14,7 +14,7 @@ source venv/bin/activate
 
 En windows:
 ```sh
-source venv/Scripts/activate
+venv/Scripts/activate
 ```
 
 3. Instalamos las dependencias
